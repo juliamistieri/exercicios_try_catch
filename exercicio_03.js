@@ -1,3 +1,11 @@
+class MeuErro extends Error {
+  constructor(message){
+    super(message);
+    this.name = "Meu Erro";
+  }
+}
+
+
 class NerdIF {
   constructor(estudante, cosplay, nota_cosplay) {
     this.estudante = estudante;
