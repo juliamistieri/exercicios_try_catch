@@ -30,7 +30,7 @@ class NerdIF {
           nota_cosplay: this.nota_cosplay
         };
       }else {
-          throw new Error("Está faltando estudante, cosplay e nota cosplay :)")
+          throw new MeuErro("")
       }
     
   }

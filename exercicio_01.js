@@ -28,7 +28,7 @@ class Animal {
         especie: this.especie
       };
     } else {
-      throw new MeuErro("Deu erro")
+      throw new MeuErro("")
     }
   }
 }

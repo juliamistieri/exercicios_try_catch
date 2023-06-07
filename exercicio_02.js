@@ -32,7 +32,7 @@ class Estudante {
         especie: this.turma
       } 
     }else {
-        throw new Error("Está faltando nome, idade e turma :)")
+        throw new MeuErro("")
     }
   }
 }
